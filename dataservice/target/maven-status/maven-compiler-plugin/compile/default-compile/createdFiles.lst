@@ -1,0 +1,11 @@
+com\servlet\ConfigurationReloaderServlet.class
+com\configuration\DeviceConfiguration.class
+com\configuration\ClientConfiguration.class
+com\response\ResponseXmlPattern.class
+com\configuration\ExitConfiguration.class
+com\configuration\xml\manager\ServiceConfigurationXmlManager.class
+com\response\ResponseXmlGenerator.class
+com\servlet\DataServiceServlet.class
+com\configuration\ServiceConfigurationModel.class
+com\configuration\ApplicationConfiguration.class
+com\configuration\controller\ServiceConfigurationController.class

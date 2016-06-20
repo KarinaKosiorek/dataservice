@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<serviceConfigurationModel>
+    <clientConfigurationsMap>
+        <entry>
+            <key>clienteA</key>
+            <value>
+                <deviceConfigurationsMap>
+                    <entry>
+                        <key>Panasonic</key>
+                        <value>
+                            <pluginVersionToExitConfigurationMap>
+<entry>
+    <key>3.3.2</key>
+    <value>
+        <pingTime>5</pingTime>
+        <clusterToTrafficLoadConfigurationMap>
+            <entry>
+                <key>clusterB.com</key>
+                <value>100</value>
+            </entry>
+        </clusterToTrafficLoadConfigurationMap>
+    </value>
+</entry>
+                            </pluginVersionToExitConfigurationMap>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>XBox</key>
+                        <value>
+                            <pluginVersionToExitConfigurationMap>
+<entry>
+    <key>3.3.1</key>
+    <value>
+        <pingTime>10</pingTime>
+        <clusterToTrafficLoadConfigurationMap>
+            <entry>
+                <key>clusterB.com</key>
+                <value>30</value>
+            </entry>
+            <entry>
+                <key>clusterA.com</key>
+                <value>70</value>
+            </entry>
+        </clusterToTrafficLoadConfigurationMap>
+    </value>
+</entry>
+                            </pluginVersionToExitConfigurationMap>
+                        </value>
+                    </entry>
+                </deviceConfigurationsMap>
+            </value>
+        </entry>
+        <entry>
+            <key>clienteB</key>
+            <value>
+                <deviceConfigurationsMap>
+                    <entry>
+                        <key>osmf</key>
+                        <value>
+                            <pluginVersionToExitConfigurationMap>
+<entry>
+    <key>3.3.1</key>
+    <value>
+        <pingTime>5</pingTime>
+        <clusterToTrafficLoadConfigurationMap>
+            <entry>
+                <key>clusterB.com</key>
+                <value>50</value>
+            </entry>
+            <entry>
+                <key>clusterA.com</key>
+                <value>50</value>
+            </entry>
+        </clusterToTrafficLoadConfigurationMap>
+    </value>
+</entry>
+                            </pluginVersionToExitConfigurationMap>
+                        </value>
+                    </entry>
+                </deviceConfigurationsMap>
+            </value>
+        </entry>
+    </clientConfigurationsMap>
+</serviceConfigurationModel>
